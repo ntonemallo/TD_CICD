@@ -1,4 +1,4 @@
-name: CI/CD
+name: devoirCI/CD
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
@@ -7,10 +7,10 @@ env:
 on:
   push:
     branches:
-      - oneforall
+      - main
   pull_request:
     branches:
-      - oneforall
+      - main
 
 jobs:
   test:
